@@ -11,15 +11,9 @@ body {
   opacity: 0.8 !important;
 }
 .accordion-button:not(.collapsed):after {
-  background-image: none !important;
+  background-image: url('./Assets/minus-sign.png') !important;
 }
-.accordion-button {
-  position: relative !important;
-}
+
 .accordion-button:after {
-  background-image: none !important;
-  position: absolute;
-  font-family: 'Font Awesome\ 5 Free';
-  content: '\f067';
-  color: red;
+  background-image: url('./Assets/plus.png') !important;
 }
